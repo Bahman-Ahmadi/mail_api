@@ -21,4 +21,4 @@ simple mail sending api using Django socket programming!
 5. open your browser and write :
 `http://127.0.0.1:8000/?arg1=prm1&arg2=prm2&arg3=prm3`
 
-# now see logs that printed.. what you see? yes! URL! now you can do everything that you want :)
+# now see logs that printed.. what do you see? yes! URL! now you can do everything that you want :)
