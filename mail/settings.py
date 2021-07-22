@@ -15,13 +15,11 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
-projectName,appName = open("/data/data/com.termux/files/home/tools/djSocket/vars.txt").read().strip().split("|")[0],open("/data/data/com.termux/files/home/tools/djSocket/vars.txt").read().strip().split("|")[1]
-
 # Application definition
 
 INSTALLED_APPS = [
     'channels',
-    appName,
+    'api',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -40,7 +38,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = f'{projectName}.urls'
+ROOT_URLCONF = 'mail.urls'
 
 TEMPLATES = [
     {
@@ -58,8 +56,8 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = f'{projectName}.wsgi.application'
-ASGI_APPLICATION = f'{projectName}.routing.application'
+WSGI_APPLICATION = 'mail.wsgi.application'
+ASGI_APPLICATION = 'mail.routing.application'
 
 # Database
 # https://docs.djangoproject.com/en/2.2/ref/settings/#databases

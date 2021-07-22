@@ -1,6 +1,5 @@
 # mail_api
 simple mail sending api using Django socket programming!
-(at this stage, only the URL is sent to the backend)
 
 0. install packages
 `apt install python git` 
@@ -19,6 +18,4 @@ simple mail sending api using Django socket programming!
 `python manage.py runserver`
 
 5. open your browser and write :
-`http://127.0.0.1:8000/?arg1=prm1&arg2=prm2&arg3=prm3`
-
-# now see logs that printed.. what do you see? yes! URL! now you can do everything that you want :)
+`http://127.0.0.1:8000/?my_mail=bahmanahmadi.mail@gmail.com&my_pass=12345678&to_mail=bit.tm.mail@gmail.com&subject_mail=SUBJECT&text_mail=hello`
