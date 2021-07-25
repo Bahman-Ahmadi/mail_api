@@ -11,9 +11,9 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = '&^b3j&l^#r*-+p^@!_537@&v^*$b^vxj7ob-wm#plrc()!yhqk'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["ArioDev.pythonanywhere.com"]
 
 # Application definition
 
